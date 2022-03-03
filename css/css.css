@@ -1,0 +1,131 @@
+/* global */
+*{box-sizing: border-box;}
+html {
+    height: 100%;
+    scroll-behaviour:smooth;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    height:auto;
+    max-width: 100%;
+
+}
+
+
+/* header */
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.header-container{
+    width: 1440px;
+    height: 105px;
+    background-color:#f6f6f6
+}
+.container{
+    max-width: 1260px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navigator{
+    display: flex;
+    align-items:center;
+}
+.list-item{
+    list-style: none;
+    font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+color: #222
+}
+.list-item{
+    display: flex;
+}
+.list-rubl{
+    margin-left: 25px;
+}
+.money{
+    list-style: none;
+    font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+color: #2959CE; 
+}
+.search{
+    display: flex;  
+}
+.search{
+    display: flex;
+    justify-content:space-between;
+    align-items:center
+}
+.search a{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 13px 20px;
+}
+.search a{
+    width: 89px;
+height: 45px;
+border-radius: 10px;
+background-color:#7296EC;
+text-decoration: none;
+font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+}
+
+/* header */
+
+/* main */
+.site-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.bold{
+    font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #7F7F7F;
+}
+.bold{
+    padding-right: 34px;
+}
+.bold :last-child{
+    margin-right: 0;
+}
+.divider{
+    border: 1px solid #D1D1D1;
+}
+.reklama{
+    width: 1200px;
+height: 128px;
+border-radius: 8px;
+margin-top: 40px;
+margin-bottom: 50px;
+
+}
