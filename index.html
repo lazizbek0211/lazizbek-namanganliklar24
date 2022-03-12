@@ -13,134 +13,225 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&family=Rubik:wght@400;500;700&family=Vollkorn&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-    
-    <!-- header -->
-    
-        <header class="header-container container">
-            <div class="navigator">
-                <a href="#"><img src="img/logo.svg"  alt="logo" width="264px" height="28px"></a>
-                <ul class="list-item">
-                    <li class="list-dollar"><span class="money">$</span> 10137.2</li>
-                    <li class="list-rubl"><span class="money">P</span> 138.26</li>
-                </ul>
-            </div>
-            <div class="search">
-                <form action="https://kun.uz" method="get">
-                    <input class="form-input"form-input type="text" name="text" placeholder="Поиск" aria-label="Поиск">
-                </form>
-                <div class="lang-togger">
-                    <a class="lang-togger-ru" href="#">РУ</a>
-                    <a class="lang-togger-uz" href="#">УЗ</a>
-                </div>
-                <a class="button" href="#">Войти</a>
-            </div>
-            <section class="site-menu">
-                <ul class="unordered-list">
-                    <li><a href="#">Главное</a></li>
-                    <li><a href="#">Интересное</a></li>
-                    <li><a href="#">Экономика</a></li>
-                    <li><a href="#">Политика</a></li>
-                    <li><a href="#">Общество</a></li>
-                    <li><a href="#">Технологии</a></li>
-                    <li><a href="#">Спорт</a></li>
-                    <li><a href="#">Культура</a></li>
-                    <li><a href="#">Происшествия</a></li>
-                    <li><a href="#">Наука</a></li>
-                </ul>
-                <hr class="divider">
-                <div class="reklama"><img src="img/optimize.png" srcset="img/optimize.jpg 1x, img/optimize@2.png 2x" width="1200px"height="128px"></div>
-            </section>
-        </header>
-    
-    
-    <!-- header -->
-    
-    
-    
     <!-- main -->
-    <main class="main-content">
-        <div class="container">
-            <div class="articles">
-                <article class="grid">
-                    <h3><a href="#">Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного соглашения</a></h3>
-                    <p>Лидер Социал-демократической партии Германии (СДПГ) и кандидат на должность...</p>
-                    <img src="" alt="">
-                    <footer>
-                        <img src="img/flag.jpg" alt="flag">
-                        <div>
-                            <span>ИА Красная Весна</span>
-                            <time>15:55</time>
-                        </div>
-                    </footer>
-                </article>
-            
-                <article class="grid">
-                    <h3><a href="#">Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного соглашения</a></h3>
-                    <p>Лидер Социал-демократической партии Германии (СДПГ) и кандидат на должность...</p>
-                    <img src="" alt="">
-                    <footer>
-                        <img src="img/flag.jpg" alt="flag">
-                        <div>
-                            <span>ИА Красная Весна</span>
-                            <time>15:55</time>
-                        </div>
-                    </footer>
-                </article>
-                <article class="grid">
-                    <h3><a href="#">Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного соглашения</a></h3>
-                    <p>Лидер Социал-демократической партии Германии (СДПГ) и кандидат на должность...</p>
-                    <img src="" alt="">
-                    <footer>
-                        <img src="img/flag.jpg" alt="flag">
-                        <div>
-                            <span>ИА Красная Весна</span>
-                            <time>15:55</time>
-                        </div>
-                    </footer>
-                </article>
-            
-                <article class="grid">
-                    <h3><a href="#">Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного соглашения</a></h3>
-                    <p>Лидер Социал-демократической партии Германии (СДПГ) и кандидат на должность...</p>
-                    <img src="" alt="">
-                    <footer>
-                        <img src="img/flag.jpg" alt="flag">
-                        <div>
-                            <span>ИА Красная Весна</span>
-                            <time>15:55</time>
-                        </div>
-                    </footer>
-                </article>
-                <article class="grid">
-                    <h3><a href="#">Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного соглашения</a></h3>
-                    <p>Лидер Социал-демократической партии Германии (СДПГ) и кандидат на должность...</p>
-                    <img src="" alt="">
-                    <footer>
-                        <img src="img/flag.jpg" alt="flag">
-                        <div>
-                            <span>ИА Красная Весна</span>
-                            <time>15:55</time>
-                        </div>
-                    </footer>
-                </article>
-                <article class="grid">
-                    <h3><a href="#">Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного соглашения</a></h3>
-                    <p>Лидер Социал-демократической партии Германии (СДПГ) и кандидат на должность...</p>
-                    <img src="" alt="">
-                    <footer>
-                        <img src="img/flag.jpg" alt="flag">
-                        <div>
-                            <span>ИА Красная Весна</span>
-                            <time>15:55</time>
-                        </div>
-                    </footer>
-                </article>
+    <header class="site-header">
+        <!-- section -->
+        <section class="basic-section">
+            <div class="mini-header container">
+                <div class="left-header">
+                    <a class="logo" href="#"><img src="img/logo.svg" alt="logo"></a>
+                    <ul class="exchange">
+                        <li class="dollar"><p><span class="rate">$</span>10137.2</p></li>
+                        <li class="rubl"><p><span class="rate">P</span> 138.26</p></li>
+                    </ul>
+                </div>
+                <div class="right-header">
+                    <form class="search" action="get">
+                        <input type="text" placeholder="Поиск">
+                    </form>
+                    <div class="lang-togger">
+                        <span class="uz-lang">УЗ</span>
+                        <span class="ru-lang">РУ</span>
+                    </div>
+                    <button class="registration">Войти</button>
+                </div>
+            </div>
+        </section>
+        <nav class="site-menu container">
+            <h3 class="navigator"><a href="#">Главное</a></h3>
+            <h3 class="navigator"><a href="#">Интересное</a></h3>
+            <h3 class="navigator"><a href="#">Экономика</a></h3>
+            <h3 class="navigator"><a href="#">Политика</a></h3>
+            <h3 class="navigator"><a href="#">Общество</a></h3>
+            <h3 class="navigator"><a href="#">Технологии</a></h3>
+            <h3 class="navigator"><a href="#">Спорт</a></h3>
+            <h3 class="navigator"><a href="#">Культура</a></h3>
+            <h3 class="navigator"><a href="#">Происшествия</a></h3>
+            <h3 class="navigator"><a href="#">Наука</a></h3>
+        </nav>
+        <hr class="divider">
+        <aside class="banner container">
+            <a href=""><img src="img/optimize.jpg" srcset="img/optimize.jpg 1x, img/optimize@2.jpg 2x" alt="banner"></a>
+        </aside>
+    </header>
+    
+    <main class="site-main container">
+        <div class="main-news">
+            <div class="avatar">
+                <h2 class="main-theme"><a href="#">Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного соглашения</a></h2>
+                <p class="content">Лидер Социал-демократической партии Германии (СДПГ) и кандидат на должность...</p>
+                <img class="main-image" src="img/germany.jpg" srcset="img/germany.jpg 1x,img/germany@2x.jpg 2x" alt="flag" width="359px" height="165px">
+            </div>
+            <span class="footer">
+                <img src="kb.jpg" alt="icon" width="20px" height="20px">
+                <p class="source">ИА Красная Весна 15:55</p>
+            </span>
+        </div>
+        <div class="main-news">
+            <h2 class="main-theme"><a href="#">Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного соглашения</a></h2>
+            <p class="content">Лидер Социал-демократической партии Германии (СДПГ) и кандидат на должность...</p>
+            <img class="main-image" src="img/wheat.jpg" srcset="img/wheat.jpg 1x,img/wheat@2x.jpg 2x" alt="flag" width="359px" height="165px">
+            <span class="footer">
+                <img src="g.jpg" alt="icon" width="20px" height="20px">
+                <p class="source">ИА Красная Весна 15:55</p>
+            </span>
+        </div>
+        <div class="main-news">
+            <h2 class="main-theme"><a href=#">Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного соглашения</a></h2>
+            <p class="content">Лидер Социал-демократической партии Германии (СДПГ) и кандидат на должность...</p>
+            <img class="main-image" src="img/car.jpg" srcset="img/car.jpg 1x,img/car@2x.jpg 2x" alt="flag" width="359px" height="165px">
+            <span class="footer">
+                <img src="icon.svg" alt="icon" width="20px" height="20px">
+                <p class="source">ИА Красная Весна 15:55</p>
+            </span>
+        </div>
+        <div class="main-news">
+            <h2 class="main-theme"><a href="#">Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного соглашения</a></h2>
+            <p class="content">Лидер Социал-демократической партии Германии (СДПГ) и кандидат на должность...</p>
+            <img class="main-image" src="img/tell.jpg" srcset="img/tell.jpg 1x,img/tell@2.jpg 2x" alt="flag" width="359px" height="165px">
+            <span class="footer">
+                <img src="icon.svg" alt="icon" width="20px" height="20px">
+                <p class="source">ИА Красная Весна 15:55</p>
+            </span>
+        </div>
+        <div class="main-news">
+            <h2 class="main-theme"><a href="#">Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного соглашения</a></h2>
+            <p class="content">Лидер Социал-демократической партии Германии (СДПГ) и кандидат на должность...</p>
+            <img class="main-image" src="img/doctor.jpg" srcset="img/doctor.jpg 1x,img/doctor@2x.jpg 2x" alt="flag" width="359px" height="165px">
+            <span class="footer">
+                <img src="icon.svg" alt="icon" width="20px" height="20px">
+                <p class="source">ИА Красная Весна 15:55</p>
+            </span>
+        </div>
+        <div class="main-news">
+            <h2 class="main-theme"><a href="#">Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного соглашения</a></h2>
+            <p class="content">Лидер Социал-демократической партии Германии (СДПГ) и кандидат на должность...</p>
+            <img class="main-image" src="img/pickup.jpg" srcset="img/pickup.jpg 1x,img/pickup@2x.jpg 2x" alt="flag" width="359px" height="165px">
+            <span class="footer">
+                <img src="icon.svg" alt="icon" width="20px" height="20px">
+                <p class="source">ИА Красная Весна 15:55</p>
+            </span>
+        </div>
+        <div class="reklama">
+            <p class="turn-on-news">Хотите быть в курсе свежих новостей?  Включите уведомления!</p>
+            <button class="turn-on">Включит</button>
+        </div>
+        <h2 class="world">В мире</h2>
+        
+        <section class="last-section">
+            <!-- left-section -->
+            <div class="left-section">
+                <div class="article">
+                    <img class="world-news" src="img/airbus.jpg" srcset="img/airbus.jpg 1x,img/airbus@2x.jpg 2x" alt="airbus" width="210px" height="165px">
+                    <div class="paragraph">
+                        <h3><a href="#">Китайский Чунцин запустил чартерный рейс для студентов до Британии</a></h3>
+                        <p>Чартерный рейс с 244 китайскими студентами вылетел из города центрального подчинения Чунцина на юго-западе Китая в британский Манчестер...</p>
+                        <span class="last-source">
+                            <img src="" alt="">
+                            <p>ИА Красная Весна 12:25</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="article">
+                    <img class="world-news" src="img/angela.jpg" srcset="img/angela.jpg 1x,img/angela@2x.jpg 2x"" alt="">
+                    <div class="paragraph">
+                        <h3><a href="#">В Германии выпустят ограниченную партию плюшевых мишек в образе Меркель</a></h3>
+                        <p>БЕРЛИН, 19 сентября. / ТАСС/. Знаменитая фабрика по производству плюшевых игрушек в городе Кобург (федеральная земля Бавария) изготовила уникального...</p>
+                        <span class="last-source">
+                            <img src="" alt="">
+                            <p>ТАСС 11:35</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="article">
+                    <img class="world-news" src="img/china.jpg" srcset="img/china.jpg 1x,img/china@2x.jpg 2x" alt="">
+                    <div class="paragraph">
+                        <h3><a href="#">Акции КНР утратили доверие инвесторов. Что делать с бумагами прямо сейчас</a></h3>
+                        <p>За последние месяцы инвесторы в китайский рынок пережили настоящее потрясение — из-за ужесточения регулирования технологического сектора и критики некоторых...</p>
+                        <span class="last-source">
+                            <img src="" alt="">
+                            <p>РБК Инвестиции 09:35</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="article">
+                    <img class="world-news" src="img/town.jpg" srcset="img/town.jpg 1x,img/town.jpg 2x" alt="">
+                    <div class="paragraph">
+                        <h3><a href="#">Китай раскритиковал заключенный Австралией, США и Великобританией антикитайский союз AUKUS</a></h3>
+                        <p>Не только Франция, которая лишилась многомиллиардного контракта с Австралий, осталась недовольна созданием трехстороннего оборонного альянса AUKUS, пишет Anna-News.info</p>
+                        <span class="last-source">
+                            <img src="" alt="">
+                            <p>Solenka.info 19:43</p>
+                        </span>
+                    </div>
+                </div>
+                <a class="more" href="#">Показать ещё </a>
+            </div>
+            <!-- right-section -->
+            <div class="right-section">
+                
+                <div class="wrapper">
+                    <aside class="site-aside">
+                        <h1>Главное</h1>
+                        <h2><a href="#">В Фергане создадут узбекско-пакистанский университет</a></h2>
+                        <p>Sputnik Узбекистан 14:09</p>
+                        <hr>
+                    </aside>
+                    <aside class="site-aside">
+                        <h2><a href="#">Узбекистан утвердил соглашение о содействии занятости в странах СНГ</a></h2>
+                        <p>ИА Красная Весна 10:19</p>
+                        <hr>
+                    </aside>
+                    <aside class="site-aside">
+                        <h2><a href="#">В Узбекистане увеличиваются очереди за автомобилями UzAuto</a></h2>
+                        <p>Северная газета (Армянск) 13:50</p>
+                        <hr>
+                    </aside>
+                    <aside class="site-aside">
+                        <h2><a href="#">Минтуризма опровергло приостановку выплат за шаги</a></h2>
+                        <p>Sputnik Узбекистан 14:32</p>
+                        <hr>
+                    </aside>
+                </div>
+                <div class="bonus">
+                    <img src="/img/building.jpg" srcset="/img/building.jpg 1x,/img/building@2.jpg 2x" width="393px" height="382px" alt="building">
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="site-footer">
+        <div class="bottom container">
+            <h1 class="footer-theme">NAMANGANLIKLAR 24</h1>
+            <div class="footer-wrapper">
+                <div class="footer-left">
+                    <p>Воспроизводство, копирование, использование информации с сайта «NAMANGANLIKLAR24.UZ» возможно только с предварительного письменного разрешения редакции.</p>
+                </div>
+                <div class="footer-medium">
+                    <a href="#">Информация о сайте</a>
+                    <a href="#">Напишите нам</a>
+                    <a href="#">Реклама</a>
+                    <a href="#">Прислать новость</a>
+                </div>
+                <div class="footer-right">
+                    <a href="#">Использование материалов</a>
+                    <a href="#">Темы дня</a>
+                    <a href="#">Наша команда</a>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="socials">
+                <div class="text"><p>Наши <br> социальные сети</p></div>
+                <div class="icons">
+                    <a class="social-icon" href="#"><img src="img/facebook.svg" alt="facebook"></a>
+                    <a class="social-icon" href="#"><img src="img/instagram.svg" alt="instagram"></a>
+                    <a class="social-icon" href="#"><img src="img/telegram.svg" alt="telegram"></a>
+                    <a class="social-icon" href="#"><img src="img/youtube.svg" alt="youtube"></a>
+                </div>
             </div>
         </div>
-    </main>
-    
-    
-    
+        
+    </footer>
 </body>
 </html>
