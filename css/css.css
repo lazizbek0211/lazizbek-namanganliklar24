@@ -14,7 +14,7 @@
     line-height: 22px;
     font-family: "rubik" "rubik mono one" "sans-serif";
     color:#4a4b4c;
-    background-color:#fff;
+    background-color:#eee;
     flex-wrap: nowrap;
 }
 .img{
@@ -33,7 +33,7 @@
     margin-left: auto;
     margin-right: auto;
 }
-.basic-section {
+.basic-type {
     background-color: #f6f6f6;
 }
 .basic-section {
@@ -53,6 +53,8 @@
     display: flex;
     margin-top: 39px;
     margin-bottom: 38px;
+    width: 276px;
+    height: 45px;
 }
 .exchange {
     display: flex;
@@ -207,6 +209,10 @@
 .banner {
     margin-bottom: 50px;
 }
+.banner img{
+    width: 1200px;
+    height: 128px;
+}
 
 /* main */
 
@@ -223,6 +229,10 @@
     border-radius: 15px;
     font-family: Rubik;
     padding: 20px 18px 17px 18px;
+}
+.main-news img{
+    width: 359px;
+    height: 165px;
 }
 .main-theme{
     margin: 0;
@@ -439,10 +449,10 @@
         padding-right: 20px;
         padding-left: 17px;
         width: 393px;
+        height:502px;
         background-color: #f6f6f6;
         border-radius: 15px;
     }
-    
     .site-aside:last-child{
         padding-bottom: 20px;
     }
@@ -487,8 +497,9 @@
     }
     
     .bonus {
-        display: block;
         padding-top: 10px;
+        width: 393px;
+        height: 338px;
     }
     .site-footer {
         background: #7297EF;
