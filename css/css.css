@@ -613,5 +613,22 @@
     .social-icon{
         margin-left: 32px;
     }
-    
+    .social-icon:hover{
+        opacity: 0.8;
+    }
+    .social-icon:active{
+        opacity: 0.6;
+    }
+    .footer-wrapper a:hover{
+        opacity: 0.8;
+    }
+    .footer-wrapper:active{
+        opacity: 0.6;
+    }
+    .socials p:hover{
+        opacity: 0.8;
+    }
+    .socials p:active{
+        opacity: 0.6;
+    }
     
