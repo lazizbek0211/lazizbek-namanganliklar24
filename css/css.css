@@ -62,9 +62,7 @@
 .dollar {
     margin-right: 20px;
 }
-.rubl {
-    
-}
+
 .rate{
     color: #2959CE;
     font-family: Rubik arial sans-serif;
@@ -111,10 +109,10 @@
     background-color: #fff;
     font-weight: bold;
     font-family: 'Rubik';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
 }
 .ru-lang {
     display: flex;
@@ -124,11 +122,11 @@ line-height: 15px;
     height: 30px;
     border-radius:50%;
     font-family: 'Rubik';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-color:#a6a6a6;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color:#a6a6a6;
 }
 .registration {
     display: flex;
@@ -407,8 +405,7 @@ color:#a6a6a6;
     background-color: #f6f6f6;
     border-radius: 15px;
 }
-.site-aside{
-}
+
 .site-aside:last-child{
     padding-bottom: 20px;
 }
