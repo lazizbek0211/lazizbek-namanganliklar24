@@ -477,6 +477,18 @@
         line-height: 28px;
         color: #000000;
     }
+    .site-aside h1:hover{
+        opacity: 0.8;
+    }
+    .site-aside h1:active{
+        opacity: 0.6;
+    }
+    .site-aside h2:hover{
+        opacity: 0.8;
+    }
+    .site-aside h2:active{
+        opacity: 0.6;
+    }
     .site-aside h2{
         margin-top: 0;
         margin-bottom: 0;
