@@ -217,9 +217,11 @@
 /* main */
 
 .site-main {
-    display: flex;
     flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
     align-items:center;
+    flex-grow: 1;
 }
 .main-news {
     width: 392px;
@@ -421,7 +423,6 @@
         background: #EAEAEA;
         border-radius: 10px;
         margin-top: 17px;
-        margin-bottom: 100px;
     }
     
     .more{
@@ -632,3 +633,6 @@
         opacity: 0.6;
     }
     
+    /* contact */
+   
+  
