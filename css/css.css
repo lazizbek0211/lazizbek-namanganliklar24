@@ -219,7 +219,7 @@
 .site-main {
     flex-wrap: wrap;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items:center;
     flex-grow: 1;
 }
